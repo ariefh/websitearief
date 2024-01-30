@@ -1,0 +1,20 @@
+body {
+    color: white;
+    background-color: red;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.about:hover {
+    background-color: #333;
+    transition: 2.s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 2px;
+}
